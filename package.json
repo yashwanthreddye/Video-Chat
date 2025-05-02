@@ -1,0 +1,21 @@
+{
+  "name": "zoom",
+  "version": "1.0.0",
+  "description": "Video-chat-v1 is a video chat app that makes it easy to groups up with people you want to meet",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "nodemon": "^2.0.4",
+    "peer": "^0.5.3",
+    "socket.io": "^2.5.1",
+    "uuid": "^8.3.2"
+  }
+}
